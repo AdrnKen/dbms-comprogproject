@@ -1,0 +1,16 @@
+C:\Users\Ken\source\repos\Admin\Admin\bin\Debug\net6.0-windows\Admin.exe
+C:\Users\Ken\source\repos\Admin\Admin\bin\Debug\net6.0-windows\Admin.deps.json
+C:\Users\Ken\source\repos\Admin\Admin\bin\Debug\net6.0-windows\Admin.runtimeconfig.json
+C:\Users\Ken\source\repos\Admin\Admin\bin\Debug\net6.0-windows\Admin.dll
+C:\Users\Ken\source\repos\Admin\Admin\bin\Debug\net6.0-windows\Admin.pdb
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.Form1.resources
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.csproj.GenerateResource.cache
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.AssemblyInfoInputs.cache
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.AssemblyInfo.cs
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.csproj.CoreCompileInputs.cache
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.dll
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\refint\Admin.dll
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.pdb
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\Admin.genruntimeconfig.cache
+C:\Users\Ken\source\repos\Admin\Admin\obj\Debug\net6.0-windows\ref\Admin.dll
