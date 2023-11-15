@@ -32,28 +32,28 @@
             panel1 = new Panel();
             menuButtom = new PictureBox();
             sidebar = new FlowLayoutPanel();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            panel2 = new Panel();
+            button1 = new Button();
             panel3 = new Panel();
             button2 = new Button();
             panel4 = new Panel();
             button3 = new Button();
-            panel6 = new Panel();
-            button5 = new Button();
             panel5 = new Panel();
             button4 = new Button();
+            panel6 = new Panel();
+            button5 = new Button();
             sidebarTransition = new System.Windows.Forms.Timer(components);
             menuTransition = new System.Windows.Forms.Timer(components);
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            button1 = new Button();
-            panel2 = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)menuButtom).BeginInit();
             sidebar.SuspendLayout();
-            panel3.SuspendLayout();
-            panel4.SuspendLayout();
-            panel6.SuspendLayout();
-            panel5.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -63,16 +63,16 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1324, 125);
+            panel1.Size = new Size(1324, 51);
             panel1.TabIndex = 0;
             // 
             // menuButtom
             // 
             menuButtom.BackColor = Color.WhiteSmoke;
             menuButtom.Image = Properties.Resources.menu_button1;
-            menuButtom.Location = new Point(30, 26);
+            menuButtom.Location = new Point(39, 12);
             menuButtom.Name = "menuButtom";
-            menuButtom.Size = new Size(104, 58);
+            menuButtom.Size = new Size(65, 32);
             menuButtom.SizeMode = PictureBoxSizeMode.StretchImage;
             menuButtom.TabIndex = 0;
             menuButtom.TabStop = false;
@@ -82,14 +82,44 @@
             // 
             sidebar.BackColor = Color.Black;
             sidebar.Controls.Add(flowLayoutPanel2);
-            sidebar.Controls.Add(panel4);
-            sidebar.Controls.Add(panel6);
             sidebar.Controls.Add(panel5);
+            sidebar.Controls.Add(panel6);
             sidebar.Dock = DockStyle.Left;
-            sidebar.Location = new Point(0, 125);
+            sidebar.Location = new Point(0, 51);
             sidebar.Name = "sidebar";
-            sidebar.Size = new Size(324, 587);
+            sidebar.Size = new Size(270, 661);
             sidebar.TabIndex = 1;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.BackColor = Color.Black;
+            flowLayoutPanel2.Controls.Add(panel2);
+            flowLayoutPanel2.Controls.Add(panel3);
+            flowLayoutPanel2.Controls.Add(panel4);
+            flowLayoutPanel2.Location = new Point(3, 3);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(223, 241);
+            flowLayoutPanel2.TabIndex = 3;
+            flowLayoutPanel2.Paint += flowLayoutPanel2_Paint;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Black;
+            panel2.Controls.Add(button1);
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(180, 62);
+            panel2.TabIndex = 2;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(16, 13);
+            button1.Name = "button1";
+            button1.Size = new Size(125, 36);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // panel3
             // 
@@ -97,59 +127,42 @@
             panel3.Controls.Add(button2);
             panel3.Location = new Point(3, 71);
             panel3.Name = "panel3";
-            panel3.Size = new Size(141, 71);
+            panel3.Size = new Size(160, 71);
             panel3.TabIndex = 3;
             // 
             // button2
             // 
-            button2.Location = new Point(3, 14);
+            button2.Location = new Point(18, 16);
             button2.Name = "button2";
-            button2.Size = new Size(125, 39);
+            button2.Size = new Size(106, 33);
             button2.TabIndex = 0;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // panel4
             // 
             panel4.BackColor = Color.Black;
             panel4.Controls.Add(button3);
-            panel4.Location = new Point(3, 74);
+            panel4.Location = new Point(3, 148);
             panel4.Name = "panel4";
-            panel4.Size = new Size(234, 74);
+            panel4.Size = new Size(183, 74);
             panel4.TabIndex = 4;
             // 
             // button3
             // 
-            button3.Location = new Point(75, 19);
+            button3.Location = new Point(18, 20);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(123, 34);
             button3.TabIndex = 0;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.Black;
-            panel6.Controls.Add(button5);
-            panel6.Location = new Point(3, 154);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(234, 75);
-            panel6.TabIndex = 5;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(75, 19);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 0;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
             // 
             // panel5
             // 
             panel5.BackColor = Color.Black;
             panel5.Controls.Add(button4);
-            panel5.Location = new Point(3, 235);
+            panel5.Location = new Point(3, 250);
             panel5.Name = "panel5";
             panel5.Size = new Size(234, 74);
             panel5.TabIndex = 5;
@@ -163,6 +176,24 @@
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             // 
+            // panel6
+            // 
+            panel6.BackColor = Color.Black;
+            panel6.Controls.Add(button5);
+            panel6.Location = new Point(3, 330);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(234, 75);
+            panel6.TabIndex = 5;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(75, 19);
+            button5.Name = "button5";
+            button5.Size = new Size(94, 29);
+            button5.TabIndex = 0;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
             // sidebarTransition
             // 
             sidebarTransition.Interval = 10;
@@ -172,36 +203,6 @@
             // 
             menuTransition.Interval = 10;
             menuTransition.Tick += menuTransition_Tick;
-            // 
-            // flowLayoutPanel2
-            // 
-            flowLayoutPanel2.BackColor = Color.Black;
-            flowLayoutPanel2.Controls.Add(panel2);
-            flowLayoutPanel2.Controls.Add(panel3);
-            flowLayoutPanel2.Location = new Point(3, 3);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(245, 65);
-            flowLayoutPanel2.TabIndex = 3;
-            flowLayoutPanel2.Paint += flowLayoutPanel2_Paint;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(16, 13);
-            button1.Name = "button1";
-            button1.Size = new Size(125, 36);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.Black;
-            panel2.Controls.Add(button1);
-            panel2.Location = new Point(3, 3);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(169, 62);
-            panel2.TabIndex = 2;
             // 
             // Form1
             // 
@@ -218,12 +219,12 @@
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)menuButtom).EndInit();
             sidebar.ResumeLayout(false);
-            panel3.ResumeLayout(false);
-            panel4.ResumeLayout(false);
-            panel6.ResumeLayout(false);
-            panel5.ResumeLayout(false);
             flowLayoutPanel2.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
             ResumeLayout(false);
         }
 

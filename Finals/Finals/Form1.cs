@@ -27,7 +27,7 @@ namespace Finals
             if (menuExpand == false)
             {
                 flowLayoutPanel2.Height += 10;
-                if (flowLayoutPanel2.Height >= 196)
+                if (flowLayoutPanel2.Height >= 236)
                 {
                     menuTransition.Stop();
                     menuExpand = true;
@@ -38,7 +38,7 @@ namespace Finals
             else
             {
                 flowLayoutPanel2.Height -= 10;
-                if (flowLayoutPanel2.Height <= 67)
+                if (flowLayoutPanel2.Height <= 64)
                 {
                     menuTransition.Stop();
                     menuExpand = false;
@@ -82,6 +82,17 @@ namespace Finals
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
             sidebarTransition.Start();
+        }
+        private void addUserControl(UserControl userContro)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userContro);
+            userControl.BringToFront();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
